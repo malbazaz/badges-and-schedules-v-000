@@ -23,15 +23,3 @@ def assign_rooms(attendees)
   newarray
 end 
 
-def printer(attendees)
-  i=0 
-  while (i<attendees.size)
-  boom = batch_badge_creator(attendee1)
-puts boom
-i++
-end 
-  attendees.each do |attendee2|
-    boom2 = assign_rooms(attendee2)
-    put boom2
-  end
-end 
